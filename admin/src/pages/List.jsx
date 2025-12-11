@@ -3,7 +3,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 
 const List = () => {
-  const BackendURL = "http://localhost:8000";
+  const BackendURL = "https://food-backend-ra6e.onrender.com";
   const [items, setItems] = useState([]);
 
   const fetchItems = async () => {
