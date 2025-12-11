@@ -4,7 +4,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 
 const Add = () => {
-  const BackendURL = "http://localhost:8000";
+  const BackendURL = "https://food-backend-ra6e.onrender.com";
   const [imagePreview, setImagePreview] = useState("");
   const [imageFile, setImageFile] = useState(null);
   const [name, setName] = useState("");
