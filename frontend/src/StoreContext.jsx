@@ -10,7 +10,7 @@ const StoreContextProvider = (props) => {
   const [token, setToken] = useState(localStorage.getItem("token"));
   const [food, setFood] = useState([]);
 
-  const url = "http://localhost:8000";
+  const url = "https://food-backend-ra6e.onrender.com";
 
   const getFoodItems = async () => {
     try {
