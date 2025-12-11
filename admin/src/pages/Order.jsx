@@ -3,7 +3,7 @@ import axios from "axios";
 import { assets } from "../../../frontend/src/assets/assets/assets";
 
 const Order = () => {
-  const BackendURL = "http://localhost:8000";
+  const BackendURL = "https://food-backend-ra6e.onrender.com";
   const [orders, setOrders] = useState([]);
 
   const getOrders = async () => {
